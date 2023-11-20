@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PWA - localização</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="/images/icon-256_ios.png">
+  <link rel="icon" href="/images/camera_256.png" sizes="256x256" />
+  <meta name="theme-color" content="white" />
+</head>
+  <body>
+      <section class="container">
+      <header class="cabecalho">
+      <h1 class="titulo PWA Geolocation"></h1>
+      </header>
+      <div class="conteudo">
+      <header class="cabecalhoConteudo">
+      <h2>Geolocalização</h2>
+      </header>
+      <div class="conteudoLocalizacao">
+      <p>
+      Latitude: <span id="latitude">0.0</span>
+      </p>
+      <p>
+      Logitude: <span id="longitude">0.0</span>
+      </p>
+      <div>
+      <button class="botao" id="localizacao">Capturar Localização</button>
+      </div>
+      </div>
+      </div>
+      <footer class="rodape">
+      Progressive Web Application Geolocation
+      </footer>
+      </section>
+      <script src="js/main.js"></script>
+  </body>
+</html>
